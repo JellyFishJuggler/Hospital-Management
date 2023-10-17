@@ -1,0 +1,79 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.appointment {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.appointment form {
+    text-align: left; /* Align form fields to the left */
+}
+
+.form-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-field label {
+    flex: 1; /* Let the label take the available space */
+    text-align: right; /* Right-align the label */
+    margin-right: 10px; /* Add a bit of spacing */
+}
+
+.form-field input {
+    flex: 2; /* Let the input field take more space */
+    padding: 5px;
+}
+button{
+    padding: 20%;
+}
